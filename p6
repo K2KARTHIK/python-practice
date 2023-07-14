@@ -1,0 +1,6 @@
+https://www.codechef.com/problems/CNTWRD
+# cook your dish here
+t=int(input())
+for i in range(t):
+    n,m=map(int,input().split())
+    print(n*m)
