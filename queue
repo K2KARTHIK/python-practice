@@ -1,0 +1,22 @@
+Q=[]
+while True:
+    print("1.Adding")
+    print("2.Removing")
+    print("3.Display")
+    print("4.Exit")
+    opt=int(input("Enter your option"))
+    if opt==1:
+        ele=int(input("Enter Element"))
+        Q.append(ele)
+        print(f'{ele} added within Q')
+    elif opt==2:
+        if len(Q)==0:
+            print("Q is empty")
+        else:
+            ele=Q[0]
+            print(f'{ele} is removed from Q')
+            del Q[0]
+    elif opt==3:
+        print(f'Queue is {Q}')
+    elif opt==4:
+        break
