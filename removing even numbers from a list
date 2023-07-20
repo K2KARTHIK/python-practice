@@ -1,0 +1,11 @@
+list1=[1,2,3,4,5,6,7,8,9,10]
+l=len(list1)
+i=0
+print(f'Before deleting even numbers {list1}')
+while i<l:
+    if list1[i]%2==0:
+        del list1[i]
+        l=l-1
+        continue
+    i=i+1
+print(f'After deleting even numbers {list1}')
