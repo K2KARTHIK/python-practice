@@ -1,0 +1,8 @@
+list1=[1,2,3]
+list2=[10,20,30]
+list3=[]
+for i in range(3): 
+    list3.append(list1[i]+list2[i])
+print(list1)
+print(list2)
+print(list3)
