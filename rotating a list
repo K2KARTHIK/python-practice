@@ -1,0 +1,5 @@
+ltList=[5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+print(ltList)
+pos=4
+rlist=ltList[pos:]+ltList[:pos]
+print(rlist)
