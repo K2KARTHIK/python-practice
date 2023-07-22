@@ -1,0 +1,8 @@
+matrix=[]
+for i in range(3):
+    row=[]
+    for j in range(3):
+        value=int(input("Enter value"))
+        row.append(value)
+    matrix.append(row)
+print(matrix)
