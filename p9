@@ -1,0 +1,6 @@
+https://www.codechef.com/problems/DNATION
+# cook your dish here
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    ans=(y-x)
+    print(ans)
