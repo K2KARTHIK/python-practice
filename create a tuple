@@ -1,0 +1,8 @@
+t2=()
+t3=tuple()
+print(t2)
+print(t3)
+t4=(10,20,30)
+t5=tuple(range(10,40,10))
+print(t4)
+print(t5)
