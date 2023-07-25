@@ -1,0 +1,18 @@
+str1=input("Enter any string")
+uc,lc,dc,spc,sc=0,0,0,0,0
+for ch in str1:
+    if ch.isupper():
+        uc+=1
+    elif ch.islower():
+        lc+=1
+    elif ch.isdigit():
+        dc+=1 
+    elif ch.isspace():
+        spc+=1
+    else:
+        sc+=1
+print(f'Uppercase Character Count {uc}')
+print(f'Lowercase Character Count {lc}')
+print(f'Digits Count {dc}')
+print(f'Space Character Count {spc}')
+print(f'Special Character Count {sc}')
