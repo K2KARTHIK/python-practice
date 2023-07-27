@@ -1,0 +1,10 @@
+https://www.codechef.com/problems/FINE
+# cook your dish here
+for i in range(int(input())):
+    x=int(input())
+    if x<=70:
+        print('0')
+    if x>70 and x<=100:
+        print("500")
+    if x>100:
+        print('2000')
