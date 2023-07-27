@@ -1,0 +1,8 @@
+https://www.codechef.com/problems/MAXDIFFMIN?tab=statement
+# cook your dish here
+for i in range(int(input())):
+    a,b,c=map(int,input().split())
+    list=[a,b,c]
+    x=max(list)
+    y=min(list)
+    print(x-y)
