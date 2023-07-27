@@ -1,0 +1,6 @@
+https://www.codechef.com/problems/SUGARCANE?tab=statement
+# cook your dish here
+for i in range(int(input())):
+    n=int(input())
+    ans=(n*50)-((n*50)*0.7)
+    print(int(ans))
