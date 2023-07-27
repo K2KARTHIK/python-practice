@@ -1,0 +1,6 @@
+https://www.codechef.com/problems/CHESSTIME
+# cook your dish here
+for i in range(int(input())):
+    n=int(input())
+    a=n*60
+    print(a//20)
