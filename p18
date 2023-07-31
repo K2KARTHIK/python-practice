@@ -1,0 +1,11 @@
+https://www.codechef.com/problems/RECENTCONT?tab=statemen
+# cook your dish here
+t=int(input())
+for i in range(t):
+    count=0
+    n=int(input())
+    l=input().split()
+    for a in l:
+        if a=='start38'.upper():
+            count+=1 
+    print(count," ",n-count)
