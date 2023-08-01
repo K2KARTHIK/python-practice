@@ -1,0 +1,11 @@
+https://www.codechef.com/problems/MATCHES
+# cook your dish here
+matches = [6,2,5,5,4,5,6,3,7,6]
+n = int(input())
+for i in range(n):
+    a, b = map(int, input().split())
+    sum = a + b
+    total_matches = 0
+    for digit in str(sum):
+        total_matches += matches[int(digit)]
+    print(total_matches)
