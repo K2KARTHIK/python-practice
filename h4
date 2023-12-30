@@ -1,0 +1,14 @@
+x = int(input())
+number=x
+y=0
+while(x):
+        a = x%10
+        y =y*10+a
+        x = int(x/10)
+print(x,y)
+if number==y :
+    print("the given number is A palindrome")
+else:
+    print("the given number is NOT a palindrome")
+
+
