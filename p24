@@ -1,0 +1,4 @@
+https://www.codechef.com/problems/ICM0013?tab=statement
+for i in range(int(input())):
+    n=int(input())
+    print(n)
